@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/EventAttendance/',  // ← Add this
+  base: '/',  // ← Add this
 })
