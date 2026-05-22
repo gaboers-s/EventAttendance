@@ -63,7 +63,7 @@ export default function Attendees() {
         .from('students')
         .select('*')
         .order('created_at', { ascending: false })
-        .limit(2000);
+        .limit(5000);
       if (studentsError) throw studentsError;
 
       setEvents(evts || []);
